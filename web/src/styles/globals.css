@@ -47,4 +47,10 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
+
+  .quizLabel {
+    font-weight:bold;
+    word-spacing: 3px;
+  }
+
 }

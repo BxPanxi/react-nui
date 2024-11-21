@@ -15,7 +15,7 @@ import {
   Route,
   Outlet,
 } from "@tanstack/react-router";
-import Players from "./app/players.tsx";
+import Players from "./app/apply.tsx";
 
 const rootRoute = new RootRoute({
   component: Root,
@@ -29,7 +29,7 @@ const routeTree = rootRoute.addChildren([
   }),
   new Route({
     getParentRoute: () => rootRoute,
-    path: "/players",
+    path: "/apply",
     component: Players,
   }),
 ]);

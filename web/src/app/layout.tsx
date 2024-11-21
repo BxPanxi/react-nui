@@ -14,8 +14,8 @@ const links = [
     icon: <HomeIcon className="w-5" />,
   },
   {
-    label: "Players",
-    href: "/players",
+    label: "Apply",
+    href: "/apply",
     icon: <UsersIcon className="w-5" />,
   },
 ];
@@ -34,7 +34,7 @@ export default function Layout({ children }: Props) {
     <div className="flex h-full w-full items-center justify-center">
       <div className="flex h-1/2 w-1/2 flex-col rounded border border-border bg-background text-foreground">
         <div className="flex w-full items-center justify-between border-b border-border px-5 py-4">
-          <span className="text-lg font-bold">CFX NUI</span>
+          <span className="text-lg font-bold">Nevada Judiciary</span>
           <Button size="sm" variant="outline">
             <MoonIcon />
           </Button>
